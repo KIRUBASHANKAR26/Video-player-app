@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    padding: 2% 5% 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #181818;
+    color: rgba(255, 255, 255, 0.842);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+}
+h1{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight:600;
+    padding-left: 2rem;
+}
+#container{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 5%;
+}
+iframe{
+    width: 100%;
+    height: 550px;
+}
+#player-section{
+    width: 100%;
+    max-width: 70%;
+    text-align: left;
+}
+#video-player{
+    width: 100%;
+    max-width: 100%;
+}
+.playlist-container{
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid;
+    border-radius:.5em;
+    cursor: pointer;
+}
+.playlist-container.active{
+    border: 3px solid #00ADEF;
+}
+
+.playlist-thumbnail{
+    width: 100%;
+    max-width: 300px;
+    border-radius: .5em .5em 0 0;
+}
+.playlist-title{
+    width: 100%;
+    max-width: 300px;
+    padding: .3em;
+    font-size: 1rem;
+    border-radius:0 0 .5em .5em;
+    text-align: left;
+}
+#video-title{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#video-description{
+    font-size: 14px;
+    font-weight: 200;
+}
+#feedback-wrap{
+    font-size: 1.3rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+}
+#views{
+    font-size: .8rem;
+}
+#feedback-btn{
+    display: flex;
+    gap: 1.5rem;
+}
+#feedback-btn > i{
+    cursor: pointer;
+}
+#like.active{
+    color: #00ADEF;
+}
+#bookmark.active{
+    color: #00ADEF;
+}
